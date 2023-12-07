@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Background</title>
+
+        <style>
+
+            body{
+                height: 2000px;
+                background-color: orange; /*define uma cor para o background*/
+
+                background-image: url('imagens/aulas/yoshi.png'); /*define uma imagem para o background*/
+                background-repeat: repeat; /*repete*/
+                background-repeat: repeat-x; /*repete na horizontal*/
+                background-repeat: repeat-y; /*repete na vertical*/
+                background-repeat: no-repeat; /*não repete*/
+
+                background-attachment: fixed; /*Deixa o background fixado/parado*/
+                background-attachment: scroll; /*Deixa o background se movendo de acordo com a página*/
+
+                background-position: center top; /*define o alinhamento horizontal e vertical do background*/
+                /*Valores para o position: 
+                    horizontal: left, center e right
+                    vertical: top, center e bottom
+                */
+            }
+
+            body{
+                background: orange url('imagens/aulas/yoshi.png') center top no-repeat fixed;
+                /*declaração abreviada das propriedades anteriores*/
+            }
+    
+        </style>
+    </head>
+    <body>
+        <h1>Título</h1>
+
+    </body>
+</html>

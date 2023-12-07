@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tamanhos de Textos</title>
+
+        <style>
+
+            #texto{
+                /*Porcentagem - Relativo ao valor padrão de tamanho do broser: 16px*/
+                font-size: 100%; /* -> 16px*/
+                font-size: 200%; /* -> 32px*/
+            }
+
+            #pai{
+                font-size: 20px; /*Valor do container pai*/
+            }
+
+            #filho{
+                /*em - Relativo ao tamanho do container pai*/
+                font-size: 1em; /* -> 30px*/
+            }
+
+            #filho2{
+                /*em - Relativo ao tamanho do container pai*/
+                font-size: 2em; /* -> 60px*/
+            }
+    
+        </style>
+    </head>
+    <body>
+
+        <p id="texto">Texto</p>
+
+        <div id="pai">
+            <p id="filho">
+                A expressão Lorem ipsum em design gráfico e editoração é um
+                texto
+                padrão em latim utilizado na produção gráfica para preencher os
+                espaços de texto em publicações para testar e ajustar aspectos
+                visuais antes de utilizar conteúdo real.
+            </p>
+
+            <p id="filho2">
+                A expressão Lorem ipsum em design gráfico e editoração é um
+                texto
+                padrão em latim utilizado na produção gráfica para preencher os
+                espaços de texto em publicações para testar e ajustar aspectos
+                visuais antes de utilizar conteúdo real.
+            </p>
+
+        </div>
+    </body>
+</html>
