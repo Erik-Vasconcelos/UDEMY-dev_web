@@ -1,8 +1,8 @@
 <h1>Curso de Desenvolvimento Web</h1>
 
-<img src="https://www.insper.edu.br/wp-content/uploads/2023/03/Linguagem-de-programacao-2-shutterstock_2060615648.jpg.jpeg" alt="imagem de banner" style="width: 100%; height:400px; object-fit:cover;">
+<img src="imagens-projetos/banner.jpg" alt="imagem de banner" style="width: 100%; height:550px; object-fit:cover;">
 
-Olá, este repositório armazena os projeto devolvidos durante o curso de desenvolvimento web dos professores Jamilton Damasceno e Jorge Sant Ana.
+Olá! Este repositório destina-se aos projetos desenvolvidos durante o curso de Desenvolvimento Web, ministrado pelos professores Jamilton Damasceno e Jorge Sant Ana.
 
 <h3>Sumário</h3>
 
@@ -21,7 +21,7 @@ Olá, este repositório armazena os projeto devolvidos durante o curso de desenv
 
 Neste projeto, desenvolveu-se um site para uma universidade fictícia chamada Unes. Nele, foi aplicado os fundamentos essenciais do HTML, construindo todo o projeto sem a utilização de CSS, apenas com HTML, e incorporando imagens para enriquecer a experiência visual.
 
-<h3>Páginas do projeto</h3>
+### Páginas do projeto 
 
 - Início
 - Quem somos
