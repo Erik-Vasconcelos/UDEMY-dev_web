@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de links</title>
+
+    <style>
+        a{
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        /*Definina os estados dos links exatamente nesta ordem*/
+
+        /*links não visitados*/
+        a:link{
+            color: #b9c941;
+        }
+
+        /*links visitados*/
+        a:visited{
+            color: #b55500;
+        }
+
+        /*mudar a cor do link ao passar o mouse*/
+        a:hover{
+            color: #6d790f;
+        }
+
+        /*links ativos: quando você clica e segura o link ele muda de cor*/
+        a:active{
+            color: #e4f371;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://www.google.com.br">Google</a> |
+    <a href="https://www.tecmundo.com.br">Tec Mundo</a> |
+    <a href="https://www.ifrn.edu.br">IFRN</a>
+
+</body>
+</html>

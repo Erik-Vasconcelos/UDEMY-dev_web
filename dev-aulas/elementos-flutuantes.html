@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos flutuantes</title>
+
+    <style>
+      .conteudo {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        float: left;
+      }
+
+      .conteudo2 {
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+      }
+
+      .imagem {
+        float: right;
+        margin-left: 10px;
+        border: 2px solid black;
+    }
+
+    .clear{
+        clear: left;/*Reseta o layout float/quebra o fluxo do float para o fluxo normal*/
+        /*left;rigth; both*/
+    }
+    </style>
+  </head>
+  <body>
+    <!--<div class="conteudo2">conteúdo 2</div>
+    Se o componente estiver como um elemento flutuante, ele fica como se não existisse no fluxo normal, ele vai para outro fluxo
+-->
+    <div class="conteudo">conteúdo</div>
+    <div class="conteudo">conteúdo</div>
+    <div class="conteudo">conteúdo</div>
+
+    <div class="clear conteudo2">conteudo 0</div>
+
+    <!--<div class="conteudo">conteúdo 1</div>
+    <div class="conteudo">conteúdo 2</div>
+    <div class="conteudo">conteúdo 3</div>
+
+    <div class="conteudo2">conteúdo 4</div>-->
+
+    <!--<img class="imagem" src="/imagens/aulas/yoshi.png" alt="img">
+
+    <h2>Elementos Flutuantes</h2>
+
+    <p>
+        A expressão Lorem ipsum em design gráfico e editoração é um texto
+        padrão em latim utilizado na produção gráfica para preencher os
+        espaços de texto em publicações para testar e ajustar aspectos
+        visuais antes de utilizar conteúdo real.
+        A expressão Lorem ipsum em design gráfico e editoração é um texto
+        padrão em latim utilizado na produção gráfica para preencher os
+        espaços de texto em publicações para testar e ajustar aspectos
+        visuais antes de utilizar conteúdo real. 
+        A expressão Lorem ipsum em design gráfico e editoração é um texto
+        padrão em latim utilizado na produção gráfica para preencher os
+        espaços de texto em publicações para testar e ajustar aspectos
+        visuais antes de utilizar conteúdo real.A expressão Lorem ipsum em design gráfico e editoração é um texto
+        padrão em latim utilizado na produção gráfica para preencher os
+        espaços de texto em publicações para testar e ajustar aspectos
+        visuais antes de utilizar conteúdo real.A expressão Lorem ipsum em design gráfico e editoração é um texto
+        padrão em latim utilizado na produção gráfica para preencher os
+        espaços de texto em publicações para testar e ajustar aspectos
+        visuais antes de utilizar conteúdo real.A expressão Lorem ipsum em design gráfico e editoração é um texto
+        padrão em latim utilizado na produção gráfica para preencher os
+        espaços de texto em publicações para testar e ajustar aspectos
+        visuais antes de utilizar conteúdo real.A expressão Lorem ipsum em design gráfico e editoração é um texto
+        padrão em latim utilizado na produção gráfica para preencher os
+        espaços de texto em publicações para testar e ajustar aspectos
+        visuais antes de utilizar conteúdo real.
+
+    </p>-->
+  </body>
+</html>
