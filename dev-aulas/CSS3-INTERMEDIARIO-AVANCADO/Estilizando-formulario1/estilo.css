@@ -1,0 +1,33 @@
+/***********LAYOUT************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset{
+  margin: 10px 0;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+}
+
+input{
+  width: 20em;
+}
+
+/*input[type="text"]{
+  width: 20em;
+}*/
+
+input.radio, input.checkbox, input.submit{
+  width: auto;
+}
+
+textarea{
+  width: 20em;
+  height: 10em;
+}
+

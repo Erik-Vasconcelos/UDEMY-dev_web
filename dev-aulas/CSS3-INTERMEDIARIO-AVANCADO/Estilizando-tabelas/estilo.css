@@ -1,0 +1,42 @@
+/***********LAYOUT************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table {
+  width: 600px;
+  /*border-collapse: separate; Este é o padrão, as bordas ficaram separadas por um espaço, e não soprebostas*
+  */
+  /*border-collapse: collapse; As bordas se soprepõem, ficando uma sobre a outra, isto é 
+  ocupam o mesmo espaço*/
+}
+
+th,
+td {
+  padding: 7px;
+}
+
+th {
+  font-size: 90%;
+  text-transform: uppercase;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #111;
+  text-align: left;
+  letter-spacing: 0.1em; /*Define o espaço entre as letras*/
+}
+
+th.align-right,
+td.align-right {
+  text-align: right;
+}
+
+tr.alternado {
+  background-color: #efefef;
+}
+
+tr:hover{
+  background-color: #c3e6e5;
+}

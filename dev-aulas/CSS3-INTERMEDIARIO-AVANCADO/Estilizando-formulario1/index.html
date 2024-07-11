@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <title>Estilizando Formulários</title>
+  </head>
+  <body>
+    <h2>Estilizando Formulários</h2>
+
+    <form>
+      <fieldset> <!--Serve para agrupar um conjunto de campos de um mesmo grupo em um formulário-->
+        <legend>Detalhes de contato</legend> <!--Serve para definir a legenda do fieldset-->
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" />
+        </div>
+
+        <div>
+          <label for="url">Url:</label>
+          <input type="text" id="url" name="url" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Comentários</legend>
+        <div>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Lembrar de mim</legend>
+        <div>
+          <label for="sim">
+            <input class="radio" type="radio" id="sim" name="lembrar" value="sim">
+            Sim
+          </label>
+        </div>
+
+        <div>
+          
+          <label for="nao">
+            <input class="radio" type="radio" id="nao" name="lembrar" value="nao">
+            Não
+          </label>
+        </div>
+      </fieldset>
+
+    </form>
+  </body>
+</html>
