@@ -1,0 +1,39 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: left; /*Use a abordagem de float para poder construir menus horizoltais.
+   Isso possibilita uma maior compatibilidate se comparado às demais abordagens*/
+  width: 720px;
+  background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  padding: 0 2em;
+  line-height: 2.2em;
+  text-decoration: none;
+  color: #fff;
+  background: url(imagens/divisor.png) repeat-y;
+  text-align: center;
+}
+
+ul li a:hover {
+  color: #085662;
+  background: #44cade;
+}
+
+ul li.primeiro a {
+  background: none;
+}
+
+#home #navegacao-lateral .home a,
+#sobre #navegacao-lateral .sobre a,
+#servicos #navegacao-lateral .servicos a {
+  color: #085662;
+  background: #44cade;
+}
