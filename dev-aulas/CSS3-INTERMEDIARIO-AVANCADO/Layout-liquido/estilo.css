@@ -1,0 +1,71 @@
+/***********LAYOUT************/
+body {
+  padding: 0;
+  margin: 0;
+  background: #f6f6f6;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#container {
+  background: #fff;
+  margin: 0 auto;
+  width: 85%; /*720px -> 85%*/
+  min-width: 720px; /*podemos usar o mim-width para definir um tamanho mínimo para a tela,
+   com o objetivo de não quebra a visualização dos componentes*/
+}
+
+#marca {
+  height: 100px;
+  line-height: 100px;
+  background-color: #9e9e9e;
+  text-align: center;
+}
+
+#conteudo {
+  width: 75%; /*520px -> 75%*/
+  float: right;
+}
+
+#conteudo-principal {
+  width: 64%; /*320px -> 64%*/
+  float: left;
+}
+
+#conteudo-secundario {
+  width: 34%; /*180px -> 34%*/
+  float: right;
+  background: #d1d1d1;
+}
+
+#conteudo-principal h2,
+#conteudo-secundario h2,
+#conteudo-principal p,
+#conteudo-secundario p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#navegacao {
+  width: 23%; /*180px -> 23%*/
+  background: #d1d1d1;
+  float: left;
+  padding: 20px 0;
+}
+
+#navegacao ul {
+  list-style: none;
+  margin: 0;
+}
+
+#navegacao ul li a {
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+}
+
+#rodape {
+  clear: both;
+  background: #c4c4c4;
+  padding: 5px;
+  text-align: center;
+}
