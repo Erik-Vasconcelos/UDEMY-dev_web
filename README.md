@@ -99,3 +99,35 @@ O Tec Blog, um blog de tecnologia, aborda temas como jogos, celulares, informát
         <label>CSS 3</label>    
     </div>
 </div>
+
+## Notícias Cidade
+
+<div style="display:flex; justify-content:center;padding: 10px; background-color: #bdbbbb;">
+    <img src="imagens-projetos/noticias-cidade.png" alt="imagem noticias-cidade"  style="width: 50em;">
+</div>
+
+**Status**: :white_check_mark: Finalizado :white_check_mark:
+
+Notícias Cidade é um site de notícias que cobre uma variedade de tópicos como Brasil, Internacional, Economia, Saúde e Ciência. O site é composto por páginas HTML estáticas estilizadas com CSS para proporcionar uma experiência agradável e intuitiva para os usuários.
+
+### Páginas do projeto
+
+- Home
+- Brasil
+- Fotos
+
+<h3>Tecnologias utilizadas</h3>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="60" />
+        <label>Html 5</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height="60"/>
+        <label>CSS 3</label>    
+    </div>
+</div>

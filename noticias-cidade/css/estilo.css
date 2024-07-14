@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background: url(../imagens/detalhe-topo.png) no-repeat right top;
+  height: 200px;
+}
+
+/*Não é uma boa prática você usar o display none, pois os browser podem não recomendar o seu site para 
+o usuário.
+
+Não esconda o conteúdo do elementos do site como o titulo, pois isso pode prejudicar a acessibilidade.
+
+Você pode usar um h1 como um elementa para por um logo em seu site.
+*/
+
+.logo {
+  width: 152px;
+  height: 66px;
+  background: url(../imagens/logo.png);
+  text-indent: -3000px;
+}
+
+/*Navegação topo*/
+
+ul {
+  list-style-type: none;
+}
+
+#topo ul {
+  margin-top: 30px;
+  background-color: #b01333;
+  float: left;
+  border: 2px solid #8e0c26;
+}
+
+#topo ul li {
+  float: left;
+}
+
+#topo ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #fff;
+  background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+  background: none;
+}
+
+#topo ul a:hover {
+  color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos {
+  color: #fff;
+  background: #de003e;
+  cursor: text;
+}
+
+/*Conteúdo*/
+
+a:link, a:visited{
+  color: #b10333;
+  padding: 2px;
+}
+
+a:hover {
+  color: #e50040;
+}
+
+#conteudo {
+  margin-top: 60px;
+  padding-top: 10px;
+}
+
+#primario {
+  float: left;
+  margin: 0 0 20px 195px;
+}
+
+#tres-colunas #primario {
+  width: 270px;
+}
+
+#duas-colunas #primario {
+  width: 555px;
+}
+
+#uma-coluna #primario {
+  width: 750px;
+  margin: 0 0 20px 0;
+}
+
+#secundario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+}
+
+#lateral {
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px; /*Empurrou o div para o outro canto do container*/
+}
+
+/*Caixa*/
+.caixa {
+  background: #f3f3f3 url(../imagens/fundo-caixa.png);
+  margin-top: 10px;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 1em;
+  color: #fff;
+  background-color: #294c71;
+  padding: 5px;
+}
+
+.caixa-conteudo {
+  background-color: #fff;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/*Navegação lateral*/
+#lateral ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 3px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #f3f3fe;
+}
+
+#lateral ul a:hover {
+  color: #a1a1a1;
+  background: #fff url(../imagens/marcador.png) no-repeat left center;
+  text-indent: 20px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  width: 125px;
+  background: #fff;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+input.submit {
+  margin-top: 5px;
+  width: 80px;
+  color: #fff;
+  background: #b01333;
+  border: 2px solid #870519;
+}
+
+/*Conteúdo*/
+
+img.imagem-principal {
+  width: 98%;
+  border: 2px solid #dfdfdf;
+  margin-top: 5px;
+}
+
+.destaques h3, .entrevista h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.destaques h3 {
+  background: #b01333;
+  color: #fff;
+}
+
+.entrevista h3 {
+  background: #de003e;
+}
+
+.lista-noticias li {
+  font-size: 0.7em;
+  border-bottom: 1px solid #ccc;
+  height: 62px;
+  padding: 5px;
+}
+
+.lista-noticias li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.lista-noticias li a img {
+  margin-right: 5px;
+  float: left;
+  height: 60px;
+}
+
+.lista-noticias li a h3 {
+  padding: 0;
+  color: #3e7eb9;
+}
+
+.lista-noticias li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+/*Rodape*/
+#container-rodape {
+  background-color: #294c71;
+  padding: 20px;
+}
+
+#rodape {
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
