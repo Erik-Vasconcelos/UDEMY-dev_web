@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax</title>
+
+    <style type="text/css">
+      /*================= Formatações Gerais =================*/
+      body,
+      html {
+        margin: 0;
+        font: 16px "Lato", sans-serif;
+        color: #777;
+        height: 100%; /*O 'Macete' para o efeito parallax*/
+      }
+
+      .conteudo {
+        background-color: #fff;
+        padding: 50px 80px;
+        text-align: justify;
+        color: #777;
+      }
+
+      h3 {
+        text-transform: uppercase;
+        color: #111;
+        text-align: center;
+      }
+      /*================= Efeito Parallax =================*/
+      .caixa1,
+      .caixa2,
+      .caixa3,
+      .caixa4 {
+        position: relative;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        opacity: 0.8; /*define a opacidade da imagem/container*/
+      }
+
+      .caixa1 {
+        /*Se na formatação acima eu colocar o atributo 'background', o atributo abaixo não tem a capacidade de
+        sobrescrevê-lo*/
+        background-image: url(imagens/imagem1.jpg);
+      }
+
+      .caixa2 {
+        background-image: url(imagens/imagem2.jpg);
+      }
+
+      .caixa3 {
+        background-image: url(imagens/imagem3.jpg);
+      }
+
+      .caixa4 {
+        background-image: url(imagens/imagem4.jpg);
+      }
+
+      .container-titulo {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        text-align: center;
+      }
+
+      .container-titulo span.titulo {
+        color: #fff;
+        background: #111;
+        padding: 20px;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        letter-spacing: 0.4em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caixa1">
+      <div class="container-titulo">
+        <span class="titulo">Passeio de balões</span>
+      </div>
+    </div>
+
+    <div class="conteudo">
+      <h3>Parallax</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+        accusamus minus qui temporibus laudantium obcaecati rerum. Voluptates
+        est eum quis natus voluptatum ex aperiam, quae voluptas ipsa eaque
+        deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+        accusamus minus qui temporibus laudantium obcaecati rerum. Voluptates
+        est eum quis natus voluptatum ex aperiam, quae voluptas ipsa eaque
+        deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi?
+      </p>
+    </div>
+
+    <div class="caixa2">
+      <div class="container-titulo">
+        <span class="titulo">Pegando a estrada</span>
+      </div>
+    </div>
+    <div class="conteudo">
+      <h3>Parallax</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+        accusamus minus qui temporibus laudantium obcaecati rerum. Voluptates
+        est eum quis natus voluptatum ex aperiam, quae voluptas ipsa eaque
+        deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+        accusamus minus qui temporibus laudantium obcaecati rerum. Voluptates
+        est eum quis natus voluptatum ex aperiam, quae voluptas ipsa eaque
+        deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Laborum accusamus minus qui temporibus laudantium obcaecati rerum.
+        Voluptates est eum quis natus voluptatum ex aperiam, quae voluptas ipsa
+        eaque deserunt quasi?
+      </p>
+    </div>
+
+    <div class="caixa3">
+      <div class="container-titulo">
+        <span class="titulo">Por do sol</span>
+      </div>
+    </div>
+
+    <div class="caixa4">
+      <div class="container-titulo">
+        <span class="titulo">Montanhas</span>
+      </div>
+    </div>
+  </body>
+</html>

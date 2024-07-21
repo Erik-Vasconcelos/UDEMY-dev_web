@@ -12,6 +12,7 @@ Olá! Este repositório destina-se aos projetos desenvolvidos durante o curso de
 - [Página da modelos Anna Bella](#página-da-modelo-anna-bella)
 - [Tec Blog](#tec-blog)
 - [Notícias Cidade](#notícias-cidade)
+- [Chalé Hotel](#chalé-hotel)
 
 ## Unes universidade
 
@@ -116,6 +117,36 @@ Notícias Cidade é um site de notícias que cobre uma variedade de tópicos com
 - Home
 - Brasil
 - Fotos
+
+<h3>Tecnologias utilizadas</h3>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="60" />
+        <label>Html 5</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height="60"/>
+        <label>CSS 3</label>    
+    </div>
+</div>
+
+## Chalé Hotel
+
+<div style="display:flex; justify-content:center;padding: 10px; background-color: #bdbbbb;">
+    <img src="imagens-projetos/chale-hotel.png" alt="chale hotel"  style="width: 50em;">
+</div>
+
+**Status**: :white_check_mark: Finalizado :white_check_mark:
+
+O projeto "Chalé Hotel" é um website desenvolvido em HTML e CSS, projetado para promover e gerenciar um hotel fictício chamado Chalé Hotel. O site apresenta um design elegante e intuitivo, destacando as principais localidades do hotel em Rio de Janeiro, São Paulo e Belo Horizonte. Com uma navegação simples, os visitantes podem explorar informações sobre a história do hotel, imprensa, gastronomia, e contato. Além disso, o site inclui seções dedicadas para descrever as acomodações, o restaurante, e a área da piscina, proporcionando uma experiência informativa e visualmente atraente para os usuários.
+
+### Páginas do projeto
+
+- Home
 
 <h3>Tecnologias utilizadas</h3>
 

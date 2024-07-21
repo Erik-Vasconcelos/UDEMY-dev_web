@@ -1,0 +1,363 @@
+/*Formatação geral*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #e2a12d; /* Cor de fundo da seleção */
+  color: #222222; /* Cor do texto da seleção */
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #222222;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#section-home {
+  background: #222222 url(../images/imagem-asfalto.jpg) no-repeat top center;
+  background-size: 100vw 100vh;
+  position: relative;
+}
+
+/*Cabecalho*/
+#header {
+  border-bottom: 1px solid #636363;
+  padding: 2em 0.5em;
+}
+
+#header #navigation-top li {
+  float: left;
+}
+
+#header #logo {
+  float: left;
+}
+
+#header #box-navigation-top {
+  float: right;
+}
+
+#header #navigation-top li a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  line-height: 30px;
+  font-size: 0.9em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+}
+#header #navigation-top li a:hover {
+  background: #e2a12d;
+  transition: all 0.4s;
+}
+
+/*Home*/
+
+#home {
+  height: 100vh;
+  padding: 0 5em;
+}
+
+#home #information {
+  width: 600px;
+  margin-top: 180px;
+  float: left;
+}
+
+#information h1 {
+  font-size: 3em;
+}
+
+#information p {
+  margin-right: 30px;
+}
+
+#home #work-done {
+  width: 100%;
+  height: 130px;
+  padding: 20px 80px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+#work-done li {
+  float: left;
+  margin-top: 10px;
+  border-left: 2px solid #636363;
+}
+
+#home #work-done .primeiro {
+  border: none;
+}
+
+/*informações-experiencia*/
+.box-information {
+  padding: 10px 5vw;
+  width: 290px;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*Box imagens*/
+#section-specialties ul li {
+  float: left;
+}
+
+.section ul .primeiro {
+  margin-left: 0;
+}
+
+.two-columns li {
+  width: 635px;
+  text-align: center;
+  margin-left: 30px;
+  float: left;
+}
+
+.four-columns li {
+  width: 302px;
+  margin-left: 30px;
+  float: left;
+  text-align: center;
+}
+
+.box-image {
+  position: relative;
+}
+
+.box-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.box-image .footer {
+  width: 100%;
+  top: 320px;
+  position: absolute;
+}
+
+#section-collections .box-image .footer {
+  top: 300px;
+}
+
+.box-image .footer h3 {
+  padding: 0 10px;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+}
+
+.box-image .footer span {
+  padding: 0 10px;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ccc;
+}
+
+.overlay {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(34, 34, 34, 1)
+  );
+  pointer-events: none; /* permite clicar através do pseudo-elemento */
+}
+
+/*Depoimentos*/
+
+.thee-columns li {
+  width: 373px;
+  margin-left: 60px;
+  float: left;
+  text-align: center;
+}
+
+.box-testemonial {
+  margin-left: 60px;
+  padding: 4em 0.5em;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box-testemonial .texto {
+  padding: 0;
+}
+
+.box-testemonial .footer {
+  margin-top: 2em;
+}
+
+.box-testemonial.footer h3 {
+  padding: 0 10px;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+}
+
+.box-testemonial .footer span {
+  padding: 0 10px;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ccc;
+}
+
+.h-line-header {
+  margin: 0 auto 3em auto;
+  width: 150px;
+  border: 1px solid #e2a12d;
+}
+
+/*banner*/
+#section-banner {
+  position: relative;
+  background: url(../images/casal-banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 90vh;
+  box-sizing: border-box;
+}
+
+#container-info {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  top: 200px;
+  position: relative;
+}
+
+#container-info h3 {
+  color: #ccc;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 4em;
+}
+
+#container-center h1,
+#container-center p,
+#container-center span {
+  margin-bottom: 1em;
+}
+
+#container-center span {
+  text-transform: uppercase;
+  color: #e2a12d;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+}
+
+#banner {
+  height: 200px;
+}
+
+/*footer*/
+#container-footer {
+  padding: 5em 2em;
+  text-align: center;
+}
+
+#info-footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#info-footer h4 {
+  font-size: 1em;
+  font-weight: 100;
+  color: #ccc;
+  margin-top: 1em;
+}
+
+/**********formatações gerais***************/
+/*seção*/
+.section {
+  padding: 1em 5em 2em 5em;
+  width: 1300px;
+  margin: 0 auto;
+}
+.h-line {
+  margin-top: 5em;
+  border-bottom: 1px solid #636363;
+}
+
+.header-section {
+  text-align: center;
+  margin: 2em 0 3em 0;
+}
+
+.header-section h1 {
+  font-size: 2.2em;
+}
+
+.header-section h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 5px;
+  letter-spacing: 0.15em;
+}
+
+.texto {
+  margin-top: 25px;
+  padding: 0 2em;
+  color: #ccc;
+  font-weight: 200;
+}
+
+/*Utilitarios*/
+.clear {
+  clear: both;
+}
+
+.font-regular {
+  font-weight: 300;
+}
+
+.gradient-to-bottom {
+  background: linear-gradient(
+    to bottom,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(34, 34, 34, 0) 30%,
+    rgba(34, 34, 34, 0) 70%,
+    rgba(34, 34, 34, 1) 100%
+  );
+  width: 100%;
+  height: 100%;
+}
+
+.gradient-to-bottom-partial {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(34, 34, 34, 1)
+  );
+  width: 100%;
+  height: 100%;
+}
