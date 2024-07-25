@@ -1,0 +1,20 @@
+#caixa {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background: red;
+}
+
+/*As transições CSS permitem que você altere valores de propriedades suavemente, ao longo de um determinado período.*/
+#caixa:hover {
+  background: yellow;
+  width: 400px;
+  /*transition: width 3s, background 3s;*/
+  transition: all 3s;
+}
+
+/*Transição (transition): Melhor para mudanças simples de estado e efeitos suaves entre dois estados.
+ É mais fácil de configurar e ideal para interações básicas, como hover ou focus.
+Animação (animation): Melhor para animações mais complexas e controladas, que
+ requerem múltiplas etapas ou repetições. Permite um controle detalhado através de @keyframes
+  e várias propriedades de animação.*/

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+
+    <style>
+      #container {
+        background: #dcdcdc;
+        height: 400px;
+        display: flex;
+
+        /*
+		row|row-reverse|column|column-reverse */
+        /*flex-direction: row; Define a direção em que os itens serão distribuidos no container*/
+
+        /*
+			nowrap: ajusta a dimensão do item para que ele caiba dentro do container
+            wrap: Faz a quebra para a próxima linha 
+            wrap-reverse: quebra ao contrário, os elementos ficam em baixo e quebram para cima
+		
+        flex-wrap: wrap;*/
+
+        /*
+		flex-start|flex-end|center|space-between|space-around
+		*/
+        /*alinhamento horizontal
+        justify-content: space-between;*/
+
+       /*
+			stretch: é o padrão, caso o item não tenha uma altura definida ele estica o elemento para 
+				ocupar todo o espaco.
+
+		center|flex-start|flex-end|
+		baseline: ALinha os itens com base em uma linha imaginari do texto
+		*/
+        /*alinhamento vertical
+        align-items: baseline;*/
+      }
+
+      .item {
+        background: white;
+        margin: 10px;
+        width: 200px;
+        height: 50px;
+        /*Define a proporção de espaço que o elemento ira ocupar dentro a div. o padrão é 0*/
+        flex-grow: 0;
+
+        /*Define a capacidade de redução do tamanho de um item. é o contrário do grow*/
+        flex-shrink: 1;
+
+
+        /*Define o tamanho inicial do elemento antes dele ser distribuido na tela*/
+        flex-basis: 100px;
+      }
+
+      /*====================
+        Se você vai usar o flex box na modalide pura, você deve importar a biblioteca POLIFILL para que
+        ele se adapte aos navegadores que não possuem suporte a este tipo de display. 
+        Se você vai usar o bootstrap, não precisa se preocupar com isso.
+
+        Site para obter o prefixo automaticamente das propriedade
+        https://autoprefixer.github.io/
+      */
+
+      .item1{
+        flex-grow: 1; /*Define que o container cresca e ocupe todo o espaço disponivel*/
+        /*Caso não tenha espaço ele vai reduzir até ficar tamanho dos outros itens*/
+      }
+
+      .item2{
+        flex-grow: 2; /*terá duas vezes a proporção do container que tem o flex grow 1*/
+      }
+
+      .ordem1{
+        order: 1; /*O padrão é o 0. Aceita também valores negativos*/
+      }
+
+      .ordem2{
+        order: 2;
+      }
+
+      .ordem3{
+        order: 3;
+      }
+
+      .ordem4{
+        order: 4;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h2>FlexBox</h2>
+
+    <div id="container">
+      <div class="item ordem4 item1">01</div>
+      <div class="item ordem3 item2">02</div>
+      <div class="item ordem2">03</div>
+      <div class="item ordem1">04</div>
+    </div>
+  </body>
+</html>

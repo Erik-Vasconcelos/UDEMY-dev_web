@@ -1,0 +1,20 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 15px;
+    background: #05cc90;
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*box-shadow: horizontal vertical borrado espalhamento cor;*/
+    box-shadow: -20px 20px 10px 20px black;
+}
+
+#caixa h1{
+    padding: 5px;
+    color: #000;
+    text-align: center;
+    /*text-shadow: horizontal vertical borrado cor;*/
+    text-shadow: 20px 10px 3px rgba(0, 0, 0, 0.5);
+}

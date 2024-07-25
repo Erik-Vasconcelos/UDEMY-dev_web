@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Novas Tags</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+
+    <!--Em versões antigas do Internet Explore, as novas tags do html5 podem não ser reconhecida e interpretadas.
+    Para reseolver isso, temos que importar uma biblioteca js para que esses navegadorem mais antigos possam entender
+    as tags do html5.
+    Essa biblioteca é a Shiv. Você pode importá-la por cdn ou por meio do arquivo no seu projeto-->
+
+    <!--[if lt IE 9]>
+	<script src="html5Shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <!--As novas Tags do html5 vieram para trazer mais significado para as partes do seu site, com tags que
+    referenciam os significados dos componentes. 
+    Ademais, os buscadores como Google e Bing entendem cada parte do seu site e podem definir quais são mais
+    importantes.
+    Além disso, os leitores de tela podem também pular as partes que não são necessárias que seja feita a leitura
+
+    <div id="cabecalho"></div> -> <header></header>-->
+
+    <header>
+        <h1>Meu site</h1>
+        <span>Informações</span>
+    </header>
+    
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Quem somos</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+
+    <article> <!--Para definir o conteúdo-->
+        <h2>Novos Cursos</h2>
+
+        <section> <!--Para definir seções dentro do article-->
+            <h3>Curso de programação</h3>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non felis a enim sagittis
+                fermentum. Nulla facilisi. Nulla facilisi. Donec auctor, metus a bibendum consectetur,
+                ligula enim consectetur velit, vel fermentum neque nunc id velit. Sed at velit vel lectus
+                faucibus tempus.</p>
+
+                <span>Atualizado em <time>20/07/2024</time><!--Para definir datas--> </span>
+            </article>
+        </section>
+
+        <section>
+            <h3>Curso de Design</h3>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non felis a enim sagittis
+                fermentum. Nulla facilisi. Nulla facilisi. Donec auctor, metus a bibendum consectetur,
+                ligula enim consectetur velit, vel fermentum neque nunc id velit. Sed at velit vel lectus
+                faucibus tempus.</p>
+
+                <span>Atualizado em <time>20/07/2024</time><!--Para definir datas--> </span>
+                
+            </article>
+        </section>
+
+        <aside> <!--Para definir conteúdo que não é relacionado ao conteúdo principal/Ao lado-->
+            <h4>Notícias Recentes</h4>
+        </aside>
+            
+    <footer>
+        <p>&copy;2024 Todos os Direitos Rereservados</p>
+    </footer>
+
+</body>
+</html>

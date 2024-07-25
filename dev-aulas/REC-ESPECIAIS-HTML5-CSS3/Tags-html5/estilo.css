@@ -1,0 +1,12 @@
+header{
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+nav{
+    border: 1px solid gray;
+}
+
+footer{
+    background: #CCC;
+}

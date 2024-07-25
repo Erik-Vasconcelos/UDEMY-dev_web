@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Degradês</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+  </head>
+  
+  <body>
+    <form>
+        <!-- OBS: Alguns desses componentes são relativamente novos, dessa forma alguns browser
+         não possuem compatibilidade. 
+         Logo a solução mais eficaz é utilizar o JS para poder criar esses componentes
+        required="required" autofocus="autofocus"-->
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" autofocus="autofocus"/>
+        <br><br>
+        
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email"/>
+        <br><br>
+
+        <label for="numero">Número</label>
+        <input type="number" id="numero" min="1" max="10" step="2"/>
+        <br><br>
+        
+        <label for="url">URL</label>
+        <input type="url" id="url" name="url" placeholder="Ex: https://www."/>
+        <br><br>
+        
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa" name="pesquisa"/>
+        <br><br>
+        
+        <label for="range">Range</label>
+        <input type="range" id="range" name="range" min="0" max="10" step="2"/>
+        <br><br>
+        
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data"/>
+        <br><br>
+        
+        <label for="cor">Cor</label>
+        <input type="color" id="cor" name="cor"/>
+        <br><br>
+        
+        <input type="submit" value="enviar">
+    </form>
+
+  </body>
+</html>
