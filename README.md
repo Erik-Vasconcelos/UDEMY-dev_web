@@ -12,7 +12,7 @@ Olá! Este repositório destina-se aos projetos desenvolvidos durante o curso de
 - [Página da modelos Anna Bella](#página-da-modelo-anna-bella)
 - [Tec Blog](#tec-blog)
 - [Notícias Cidade](#notícias-cidade)
-- [Chalé Naciona](#museu-nacional)
+- [Museu Naciona](#museu-nacional)
 
 ## Unes universidade
 
