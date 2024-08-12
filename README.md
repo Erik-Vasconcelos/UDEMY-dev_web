@@ -199,7 +199,7 @@ Este projeto é uma página web para o Museu Nacional, oferecendo informações 
 ## Finans
 
 <div style="display:flex; justify-content:center;padding: 10px; background-color: #bdbbbb;">
-    <img src="imagens-projetos/fians.png" alt="finans"  style="width: 50em;">
+    <img src="imagens-projetos/finans.png" alt="finans"  style="width: 50em;">
 </div>
 
 **Status**: :white_check_mark: Finalizado :white_check_mark:
@@ -235,7 +235,7 @@ Este projeto é uma landing page para o Finans, uma ferramenta online voltada pa
 
 <div style="display: flex;">
     <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
-       <img src="https://www.drupal.org/files/project-images/font_awesome_logo.png" height="60"/>
+       <img src="https://www.drupal.org/files/project-images/font_awesome_logo.png" height="50"/>
         <label>Font Awesome</label>    
     </div>
 </div>
@@ -279,7 +279,7 @@ Este projeto é um clone do Spotify, recriado utilizando HTML, CSS e Bootstrap 4
 
 <div style="display: flex;">
     <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
-       <img src="https://www.drupal.org/files/project-images/font_awesome_logo.png" height="60"/>
+       <img src="https://www.drupal.org/files/project-images/font_awesome_logo.png" height="50"/>
         <label>Font Awesome</label>    
     </div>
 </div>
