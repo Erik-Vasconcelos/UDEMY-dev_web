@@ -12,7 +12,9 @@ Olá! Este repositório destina-se aos projetos desenvolvidos durante o curso de
 - [Página da modelos Anna Bella](#página-da-modelo-anna-bella)
 - [Tec Blog](#tec-blog)
 - [Notícias Cidade](#notícias-cidade)
-- [Museu Naciona](#museu-nacional)
+- [Museu Nacional](#museu-nacional)
+- [Finans](#finans)
+- [Clone Spotify](#clone-spotify)
 
 ## Unes universidade
 
@@ -191,5 +193,93 @@ Este projeto é uma página web para o Museu Nacional, oferecendo informações 
     <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height="60"/>
         <label>CSS 3</label>    
+    </div>
+</div>
+
+## Finans
+
+<div style="display:flex; justify-content:center;padding: 10px; background-color: #bdbbbb;">
+    <img src="imagens-projetos/fians.png" alt="finans"  style="width: 50em;">
+</div>
+
+**Status**: :white_check_mark: Finalizado :white_check_mark:
+
+Este projeto é uma landing page para o Finans, uma ferramenta online voltada para facilitar a gestão financeira dos usuários. A página foi desenvolvida utilizando Bootstrap 4 para garantir um design responsivo e moderno, além de ser fácil de navegar em diferentes dispositivos.
+
+### Páginas do projeto
+
+- Home
+
+<h3>Tecnologias utilizadas</h3>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="60" />
+        <label>Html 5</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height="60"/>
+        <label>CSS 3</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" height="60"/>
+        <label>Bootstrap</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://www.drupal.org/files/project-images/font_awesome_logo.png" height="60"/>
+        <label>Font Awesome</label>    
+    </div>
+</div>
+
+## Clone Spotify
+
+<div style="display:flex; justify-content:center;padding: 10px; background-color: #bdbbbb;">
+    <img src="imagens-projetos/spotify.png" alt="spotify"  style="width: 50em;">
+</div>
+
+**Status**: :white_check_mark: Finalizado :white_check_mark:
+
+Este projeto é um clone do Spotify, recriado utilizando HTML, CSS e Bootstrap 4. A interface simula a página principal do Spotify, com um design responsivo e moderno, permitindo uma navegação intuitiva.
+
+### Páginas do projeto
+
+- Home
+
+<h3>Tecnologias utilizadas</h3>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="60" />
+        <label>Html 5</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height="60"/>
+        <label>CSS 3</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" height="60"/>
+        <label>Bootstrap</label>    
+    </div>
+</div>
+
+<div style="display: flex;">
+    <div style="display:flex; flex-direction: column; align-items: center; padding: 10px 20px;">
+       <img src="https://www.drupal.org/files/project-images/font_awesome_logo.png" height="60"/>
+        <label>Font Awesome</label>    
     </div>
 </div>
